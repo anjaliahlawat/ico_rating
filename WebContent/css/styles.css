@@ -53,7 +53,7 @@ li.footer-link a, .links
 }
 #rating_btn a:hover
 {
-	opacity:0.8;	
+	background-color:#351c75;	
 }
 #rating_btn a
 {
