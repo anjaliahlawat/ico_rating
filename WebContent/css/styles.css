@@ -1,0 +1,97 @@
+body {
+	margin:0px;
+	padding: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height:500px;
+    
+}
+
+.jumbotron.jumbotron-fluid
+{
+	background: #e4d8e7;
+}
+
+li.nav-item a
+{
+	color:black !important;
+}
+
+li.nav-item a:hover
+{
+	opacity:0.7;
+}
+li.nav-item a:active
+{
+	color:red !important;
+}
+#solution
+{
+	color: #351c75;
+	
+}
+#solution p
+{
+	margin-top:10px;
+}
+footer
+{
+	background-color: #9882b6;
+	
+}
+li.footer-link a, .links
+{
+	color:floralwhite;
+}
+#mid-body
+{
+	min-height:200px;
+}
+#rating_btn a
+{
+	background-color: #9882b6;
+	
+}
+#rating_btn a:hover
+{
+	opacity:0.8;	
+}
+#rating_btn a
+{
+	color:floralwhite;
+	font-weight:bold;
+}
+#cp p, #contact_details , #contact_details a
+{
+	color:floralwhite;
+}
+.navbar-toggler
+{
+	background-color: #9882b6;
+}
+#searchbar input[type=text] {
+  
+  font-size: 15px; 
+  border-style:none; 
+  border-bottom: 1px solid #ccc;  
+}
+@media screen and (max-width: 600px) {
+   #searchbar input[type=text] {
+    float: none;
+    text-align: left;
+    width: 80%;
+   
+    padding: 12px;
+  }
+  #searchbar input[type=text] {
+    border-bottom: 1px solid #ccc;
+  }
+}
+#searchbar button
+{
+	border-style:none;
+	background-color:white;
+}
+#searchbar button:hover
+{
+	opacity:0.6;
+}
