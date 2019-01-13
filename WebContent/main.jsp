@@ -40,7 +40,7 @@
 					    <img class="card-img-top ml-3 mt-1" src="static/pitch.jpg" alt="Card image" height="70" width="70">
 					    <div class="card-body">
 					      <p class="card-title">PITCH APPLY</p>
-					      <div id="prob"><p class="card-text">Probability :Low</p></div>					      
+					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="55" width="50"></p>					      
 					    </div>
 				  </div>
 			   </div>
@@ -50,7 +50,7 @@
 					    <img class="card-img-top ml-3 mt-1" src="static/srcoin.jpg" alt="Card image" height="70" width="70">
 					    <div class="card-body">
 					      <p class="card-title">SRCOIN</p>
-					      <div id="prob"><p class="card-text">Probability : HIGH</p></div>					      
+					     <p class="card-text"><img class="card-img" src="static/high.png" alt="Card image" height="55" width="50"></p>					      
 					    </div>
 				  </div>
 			   </div>
@@ -59,7 +59,7 @@
 					    <img class="card-img-top ml-3 mt-1" src="static/hplus.jpg" alt="Card image" height="70" width="70">
 					    <div class="card-body">
 					      <p class="card-title">HPLUS</p>
-					      <div id="prob"><p class="card-text">Probability : HIGH</p></div>					      
+					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="55" width="50"></p>					      
 					    </div>
 				  </div>
 			   </div>
@@ -68,17 +68,17 @@
 					    <img class="card-img-top ml-3 mt-1" src="static/dolos.png" alt="Card image" height="70" width="70">
 					    <div class="card-body">
 					      <p class="card-title">DOLOS</p>
-					      <div id="prob"><p class="card-text">Probability : HIGH</p></div>					      
+					      <p class="card-text"><img class="card-img" src="static/low.png" alt="Card image" height="55" width="50"></p>					      
 					    </div>
 				  </div>
 			   </div>
 	</div>
-	<div class="row row-header"  id="solution">
-          <div class="col-12 offset-sm-1 col-sm-5 mt-4">
+	<div class="row row-header mt-5"  id="solution">
+          <div class="col-12 col-sm-6">
                <p><strong>Our Unique solution</strong></p>               
                <p>The only website that uses the MACHINE LEARNING to rate the ICOs and predict the probability of a particular ICO being FAKE.</p>
           </div>
-          <div class="col-12 offset-sm-2 col-sm-2 mt-5" id="rating_btn">
+          <div class="col-12 offset-sm-1 col-sm-2 mt-5" id="rating_btn">
              <a role="button" class="btn btn-block nav-link active" href="#" data-toggle="tooltip" data-html="true"
                      data-placement="bottom">Get Rating</a>    
           </div>
@@ -108,7 +108,7 @@
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5 mt-5" id="contact_details">
-		              <i class="fa fa-phone fa-lg"></i>: +91 9158390978<br>		              
+		              <p><i class="fa fa-phone fa-lg"></i>: +91 9158390978</p>		              
 		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">nikhil_chandna@yahoo.com</a>		           
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">

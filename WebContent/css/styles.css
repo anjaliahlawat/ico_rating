@@ -7,7 +7,7 @@ body {
 }
 .navbar-dark
 {
-    background-color: #351c75
+    background-color: #201e3d;
 }
 #Navbar a
 {
@@ -19,10 +19,11 @@ body {
   font-size: 15px;
   border-style:none; 
   border-radius: 25px;
-  background: #e4d8e7; 
   padding: 5px;
   width: 300px;
   height: 27px;
+  background-color: #12102c;
+  color:floralwhite;
 }
 @media screen and (max-width: 600px) {
    #searchbar input[type=text] {
@@ -47,16 +48,24 @@ body {
 #solution p
 {
 	margin-top:10px;
-	color:floralwhite;
+	color:#eaf1f1;
+}
+#solution
+{
+	border-top: 1px solid #463d9c;
 }
 footer
 {
-	background-color: #9882b6;
+	background-color: #203168;
 	
 }
-li.footer-link a, .links
+li.footer-link a, #contact_details a, #contact_details i, #cp p, #contact_details p
 {
-	color:floralwhite;
+	color:#f0eff9;
+}
+.links
+{
+	color:#536ab8;
 }
 #mid-body
 {
@@ -64,12 +73,12 @@ li.footer-link a, .links
 }
 #rating_btn a
 {
-	background-color: #9882b6;
+	background-color: #309c99;
 	
 }
 #rating_btn a:hover
 {
-	background-color:#351c75;	
+	background-color:#206f6d;	
 }
 #rating_btn a
 {
@@ -83,18 +92,19 @@ li.footer-link a, .links
 }
 .jumbotron
 {
-	background:#342371;
-	height:500px;
+	background:#211e48;
+	height:550px;
 }
 #review_heading
 {
-	color:floralwhite;
+	color:#f0eff9;
 }
 #card-div
 {
-	width:200px;
-	height:170px;
+	width:190px;
+	height:180px;
 	border-style:none;
+	background-color:floralwhite;
 }
 .card-title
 {
