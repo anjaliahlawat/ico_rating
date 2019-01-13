@@ -12,46 +12,83 @@
 <title>ICO gadgets</title>
 </head>
 <body>
-<div class="container">
-   <div class="row">
-     <div class="col-12 col-sm-4 mt-2">
-         <img alt="ICO" src="static/name_new.png" class="img-fluid mr-auto" height="100" width="150">
-     </div>
-     <div class="col-12 col-sm-4 mt-3" id="searchbar">
-		  <input type="text" placeholder="Search..">
-		  <button type="submit" id="i_btn"><i class="fa fa-search"></i></button>
-      </div>
-       <nav class="navbar navbar-dark navbar-expand-sm">
-           <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#Navbar">
-	                <span class="navbar-toggler-icon"></span>
-	       </button>
-	       <div class="collapse navbar-collapse" id="Navbar">
-	           <ul class="navbar-nav mr-auto">
-	              <li class="nav-item active"><a class="nav-link" href="#"> HOME</a></li>
-	              <li class="nav-item"><a class="nav-link" href="aboutus.jsp">ABOUT US</a></li>
-	              <li class="nav-item"><a class="nav-link" href="blog.jsp">BLOG</a></li>
-	              <li class="nav-item"><a class="nav-link" href="contact.jsp">CONTACT US</a></li>	              
-	           </ul>
-	       </div>
-	    </nav>	 
-   </div>
-</div>
-<header class="jumbotron jumbotron-fluid mt-4">
-  <div class="container-fluid ">
-    <div class="row row-header">
-          <div class="col-12 offset-sm-1 col-sm-5" id="solution">
-               <strong>Our Unique solution</strong>
-               
-               <p>Our Unique solution" should detail about our solution, how we assign a probability and what all
-                inputs do we consider while calculating any probability..</p>
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             <a class="navbar-brand mr-auto" href="./main.jsp"><img alt="ICO" src="static/logo.png" class="img-fluid mr-auto" height="85" width="140"></a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-5">
+                        <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.jsp">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./blog.jsp">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contactus.jsp"> Contact</a></li>
+                    </ul>                             
+                </div>
+                <div id="searchbar">
+					  <input type="text" placeholder="Search ICOs..">
+			    </div>              
+        </div>
+    </nav>
+<header class="jumbotron">
+  <div class="container" id="icoreview">
+  <h3 class="ml-5" id="review_heading">Top Reviewed ICOs</h3>
+	<div class="row mt-5">
+			   <div class="col-12 col-sm-3">
+			      <div class="card" id="card-div">
+					    <img class="card-img-top ml-3 mt-1" src="static/pitch.jpg" alt="Card image" height="70" width="70">
+					    <div class="card-body">
+					      <p class="card-title">PITCH APPLY</p>
+					      <div id="prob"><p class="card-text">Probability :Low</p></div>					      
+					    </div>
+				  </div>
+			   </div>
+			 
+			   <div class="col-12 col-sm-3">
+			      <div class="card" id="card-div">
+					    <img class="card-img-top ml-3 mt-1" src="static/srcoin.jpg" alt="Card image" height="70" width="70">
+					    <div class="card-body">
+					      <p class="card-title">SRCOIN</p>
+					      <div id="prob"><p class="card-text">Probability : HIGH</p></div>					      
+					    </div>
+				  </div>
+			   </div>
+			   <div class="col-12 col-sm-3">
+			      <div class="card" id="card-div">
+					    <img class="card-img-top ml-3 mt-1" src="static/hplus.jpg" alt="Card image" height="70" width="70">
+					    <div class="card-body">
+					      <p class="card-title">HPLUS</p>
+					      <div id="prob"><p class="card-text">Probability : HIGH</p></div>					      
+					    </div>
+				  </div>
+			   </div>
+			   <div class="col-12 col-sm-3">
+			      <div class="card" id="card-div">
+					    <img class="card-img-top ml-3 mt-1" src="static/dolos.png" alt="Card image" height="70" width="70">
+					    <div class="card-body">
+					      <p class="card-title">DOLOS</p>
+					      <div id="prob"><p class="card-text">Probability : HIGH</p></div>					      
+					    </div>
+				  </div>
+			   </div>
+	</div>
+	<div class="row row-header"  id="solution">
+          <div class="col-12 offset-sm-1 col-sm-5 mt-4">
+               <p><strong>Our Unique solution</strong></p>               
+               <p>The only website that uses the MACHINE LEARNING to rate the ICOs and predict the probability of a particular ICO being FAKE.</p>
           </div>
-          <div class="col-12 offset-sm-2 col-sm-2 mt-4" id="rating_btn">
+          <div class="col-12 offset-sm-2 col-sm-2 mt-5" id="rating_btn">
              <a role="button" class="btn btn-block nav-link active" href="#" data-toggle="tooltip" data-html="true"
                      data-placement="bottom">Get Rating</a>    
           </div>
-    </div>    
-  </div>  
+    </div> 
+</div>
 </header>
+  <div class="container">
+       
+  </div>  
+
 <div class="container">
 	 <div class="row" id="mid-body">
 	     
