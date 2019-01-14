@@ -23,7 +23,7 @@
                         <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./aboutus.jsp">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="./blog.jsp">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contactus.jsp"> Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.jsp"> Contact</a></li>
                     </ul>                             
                 </div>
                 <div id="searchbar">
@@ -86,7 +86,7 @@
 </div>
 </header>
   <div class="container">
-       
+      
   </div>  
 
 <div class="container">
@@ -121,7 +121,7 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto" id="cp">
-                    <p>© Copyright</p>
+                    <p>ICOgadgets © 2019 | All rights reserved</p>
                 </div>
            </div>
         </div>

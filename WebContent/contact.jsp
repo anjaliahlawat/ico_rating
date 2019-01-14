@@ -3,16 +3,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/bootstrap-social.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ICO gadgets</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap-social.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>ICO gadgets</title>
 </head>
 <body>
-<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+   <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
@@ -21,9 +21,9 @@
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav ml-5">
                         <li class="nav-item active"><a class="nav-link" href="./main.jsp"> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.jsp">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="./blog.jsp">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contactus.jsp"> Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Contact</a></li>
                     </ul>                             
                 </div>
                 <div id="searchbar">
@@ -31,8 +31,53 @@
 			    </div>              
         </div>
     </nav>
+    <div class="container mt-5 p-5">
+      <div class="row">
+        <div class="col-12">
+              <h5>For any inquiry, mail us at <a href="#">abcabc@gmail.com</a></h5>
+           </div> 
+      </div>
+       <div class="row row-content mt-3">
+           <div class="col-12">
+              <h6> Or post your queries here..</h6>
+           </div>
+            <div class="col-12 col-md-9 mt-3">
+                <form>
+                    <div class="form-group row">
+                         <label for="firstname" class="col-md-2 col-form-label">Name</label>
+                         <div class="col-md-10">
+                             <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">                        
+                         </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                             <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">                        
+                         </div>
+                    </div>
 
-<footer class="footer mt-5">
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                             <textarea  class="form-control" id="feedback" name="feedback" row="12"></textarea>                        
+                         </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">
+                                Send
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+             
+       </div>
+
+    </div> 
+   
+   <footer class="footer mt-5">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2 mt-2">
@@ -58,13 +103,10 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto" id="cp">
-                    <p>ICOgadgets © 2019 | All rights reserved</p>
+                    <p> ICOgadgets © 2019 | All rights reserved</p>
                 </div>
            </div>
         </div>
     </footer>
-<script src="jquery/dist/jquery.slim.min.js"></script>
-<script src="js/popper.js/dist/umd/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
