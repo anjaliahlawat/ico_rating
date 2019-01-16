@@ -33,50 +33,74 @@
     </nav>
 <header class="jumbotron">
   <div class="container" id="icoreview">
-  <h3 class="ml-5" id="review_heading">Top Reviewed ICOs</h3>
+  <h3 id="review_heading">Scam prediction</h3>
+  <h6 id="subheading">Our ML algorithm assigns a probability class to each ICO, predicting
+the likelihood of it being fake.</h6>
 	<div class="row mt-5">
-			   <div class="col-12 col-sm-3">
+			   <div class="col-12 col-sm-2">
 			      <div class="card" id="card-div">
-					    <img class="card-img-top ml-3 mt-1" src="static/pitch.jpg" alt="Card image" height="70" width="70">
+					    <img class="card-img-top ml-3 mt-1" src="static/pitch.jpg" alt="Card image" height="50" width="40">
 					    <div class="card-body">
 					      <p class="card-title">PITCH APPLY</p>
-					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="55" width="50"></p>					      
+					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="45" width="45"></p>					      
 					    </div>
 				  </div>
 			   </div>
 			 
-			   <div class="col-12 col-sm-3">
+			   <div class="col-12 col-sm-2">
 			      <div class="card" id="card-div">
-					    <img class="card-img-top ml-3 mt-1" src="static/srcoin.jpg" alt="Card image" height="70" width="70">
+					    <img class="card-img-top ml-3 mt-1" src="static/srcoin.jpg" alt="Card image" height="50" width="40">
 					    <div class="card-body">
 					      <p class="card-title">SRCOIN</p>
-					     <p class="card-text"><img class="card-img" src="static/high.png" alt="Card image" height="55" width="50"></p>					      
+					     <p class="card-text"><img class="card-img" src="static/high.png" alt="Card image" height="45" width="45"></p>					      
 					    </div>
 				  </div>
 			   </div>
-			   <div class="col-12 col-sm-3">
+			   <div class="col-12 col-sm-2">
 			      <div class="card" id="card-div">
-					    <img class="card-img-top ml-3 mt-1" src="static/hplus.jpg" alt="Card image" height="70" width="70">
+					    <img class="card-img-top ml-3 mt-1" src="static/hplus.jpg" alt="Card image" height="50" width="40">
 					    <div class="card-body">
 					      <p class="card-title">HPLUS</p>
-					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="55" width="50"></p>					      
+					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="45" width="45"></p>					      
 					    </div>
 				  </div>
 			   </div>
-			   <div class="col-12 col-sm-3">
+			   <div class="col-12 col-sm-2">
 			      <div class="card" id="card-div">
-					    <img class="card-img-top ml-3 mt-1" src="static/dolos.png" alt="Card image" height="70" width="70">
+					    <img class="card-img-top ml-3 mt-1" src="static/dolos.jpg" alt="Card image" height="50" width="40">
 					    <div class="card-body">
 					      <p class="card-title">DOLOS</p>
-					      <p class="card-text"><img class="card-img" src="static/low.png" alt="Card image" height="55" width="50"></p>					      
+					      <p class="card-text"><img class="card-img" src="static/low.png" alt="Card image" height="45" width="45"></p>					      
+					    </div>
+				  </div>
+			   </div>
+			   <div class="col-12 col-sm-2">
+			      <div class="card" id="card-div">
+					    <img class="card-img-top ml-3 mt-1" src="static/nam.png" alt="Card image" height="50" width="40">
+					    <div class="card-body">
+					      <p class="card-title">NAMA</p>
+					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="45" width="45"></p>					      
+					    </div>
+				  </div>
+			   </div>
+			   <div class="col-12 col-sm-2">
+			      <div class="card" id="card-div">
+					    <img class="card-img-top ml-3 mt-1" src="static/toplancer.jpg" alt="Card image" height="50" width="40">
+					    <div class="card-body">
+					      <p class="card-title">TOPLANCER</p>
+					      <p class="card-text"><img class="card-img" src="static/high.png" alt="Card image" height="45" width="45"></p>					      
 					    </div>
 				  </div>
 			   </div>
 	</div>
 	<div class="row row-header mt-5"  id="solution">
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-9">
                <p><strong>Our Unique solution</strong></p>               
-               <p>The only website that uses the MACHINE LEARNING to rate the ICOs and predict the probability of a particular ICO being FAKE.</p>
+               <p id="para">The only website that uses Machine learning algorithms to identify fake ICOs. Our solution scours the internet and creates a sentiment profile of each ICO, then based on past patterns of fake ICOs; it assigns a probability to the new ICO. The probability falls under one of the three classes High, Medium or Low.<br>
+High: means that it is most likely a scam.<br>
+Medium: indicates that there is not enough evidence to tip the scale in any direction, so one should do further research.<br>
+Low: is the safest rating as per our solution.</p><br><br>
+This approach guarantees unbiased and authentic ratings based on the current and past market sentiment of ICOs. 
           </div>
           <div class="col-12 offset-sm-1 col-sm-2 mt-5" id="rating_btn">
              <a role="button" class="btn btn-block nav-link active" href="#" data-toggle="tooltip" data-html="true"
