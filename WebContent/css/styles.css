@@ -48,15 +48,19 @@ body {
 #solution p
 {
 	margin-top:10px;
-	color:#eaf1f1;
+	color: #8993b2;
+}
+#solution a
+{
+	color:floralwhite;
 }
 #solution
 {
-	border-top: 1px solid #5b638a;
+	border-top: 1px solid #839192;
 }
 #para
 {
-	color:#a1a5b5 !important;
+	color:#979a9a !important;
 }
 footer
 {
@@ -97,7 +101,7 @@ li.footer-link a, #contact_details a, #contact_details i, #cp p, #contact_detail
 .jumbotron
 {
 	background:#211e48;
-	height:630px;
+	height:500px;
 }
 #review_heading
 {

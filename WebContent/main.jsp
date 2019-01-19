@@ -76,9 +76,9 @@ the likelihood of it being fake.</h6>
 			   </div>
 			   <div class="col-12 col-sm-2">
 			      <div class="card" id="card-div">
-					    <img class="card-img-top ml-3 mt-1" src="static/nam.png" alt="Card image" height="50" width="40">
+					    <img class="card-img-top ml-3 mt-1" src="static/namacoin.png" alt="Card image" height="50" width="40">
 					    <div class="card-body">
-					      <p class="card-title">NAMA</p>
+					      <p class="card-title">NAMACOIN</p>
 					      <p class="card-text"><img class="card-img" src="static/med.png" alt="Card image" height="45" width="45"></p>					      
 					    </div>
 				  </div>
@@ -93,14 +93,11 @@ the likelihood of it being fake.</h6>
 				  </div>
 			   </div>
 	</div>
-	<div class="row row-header mt-5"  id="solution">
+		<div class="row row-header mt-4"  id="solution">
           <div class="col-12 col-sm-9">
                <p><strong>Our Unique solution</strong></p>               
-               <p id="para">The only website that uses Machine learning algorithms to identify fake ICOs. Our solution scours the internet and creates a sentiment profile of each ICO, then based on past patterns of fake ICOs; it assigns a probability to the new ICO. The probability falls under one of the three classes High, Medium or Low.<br>
-High: means that it is most likely a scam.<br>
-Medium: indicates that there is not enough evidence to tip the scale in any direction, so one should do further research.<br>
-Low: is the safest rating as per our solution.</p><br><br>
-This approach guarantees unbiased and authentic ratings based on the current and past market sentiment of ICOs. 
+               <p id="para">The only website that uses Machine learning algorithms to identify fake ICOs. Our solution scours the internet and 
+                            creates a sentiment profile of each ICO..  <a href="uniqueSoolution.html">Read More</a>
           </div>
           <div class="col-12 offset-sm-1 col-sm-2 mt-5" id="rating_btn">
              <a role="button" class="btn btn-block nav-link active" href="#" data-toggle="tooltip" data-html="true"
