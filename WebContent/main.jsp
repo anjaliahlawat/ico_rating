@@ -97,7 +97,7 @@ the likelihood of it being fake.</h6>
           <div class="col-12 col-sm-9">
                <p><strong>Our Unique solution</strong></p>               
                <p id="para">The only website that uses Machine learning algorithms to identify fake ICOs. Our solution scours the internet and 
-                            creates a sentiment profile of each ICO..  <a href="uniqueSoolution.html">Read More</a>
+                            creates a sentiment profile of each ICO..  <a href="./uniqueSolution.html">Read More</a>
           </div>
           <div class="col-12 offset-sm-1 col-sm-2 mt-5" id="rating_btn">
              <a role="button" class="btn btn-block nav-link active" href="#" data-toggle="tooltip" data-html="true"
